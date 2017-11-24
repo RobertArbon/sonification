@@ -6,8 +6,7 @@ import math
 from pythonosc import osc_message_builder
 from pythonosc import udp_client
 
-res_1 = np.load("../ala-dihed.npy")
-
+res_1 = np.load("/Users/Ajj/Google Drive/Data/ala-dihed.npy")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
