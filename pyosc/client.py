@@ -11,7 +11,7 @@ res_1 = np.load("../ala-dihed.npy")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", default="127.0.0.1",
+    parser.add_argument("--ip", default="192.168.1.7",
                         help="")
     parser.add_argument("--port", type=int, default=5005,
                         help="")
@@ -19,7 +19,9 @@ if __name__ == "__main__":
 
     client = udp_client.SimpleUDPClient(args.ip, args.port)
 
-    for x in res_1[:,1]:
-        # print(x)
-        client.send_message("/filter", float(x))
-        time.sleep(1)
+    for x in res_1:
+        print(x)
+        client.send_message("/psi", float(x[0]))
+        client.send_message("/phi", float(x[1]))
+
+        time.sleep(.1)
