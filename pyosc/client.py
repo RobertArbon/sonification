@@ -20,5 +20,5 @@ if __name__ == "__main__":
 
     for x in res_1[:,1]:
         # print(x)
-        client.send_message("/filter", x)
+        client.send_message("/filter", float(x))
         time.sleep(1)
