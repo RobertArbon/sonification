@@ -1,4 +1,5 @@
 *.npy
+*.idea
 *.dcd
 Data/
 alanine_dipeptide/
