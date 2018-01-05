@@ -9,6 +9,9 @@ from pythonosc import udp_client
 phipsi = np.load("/users/ajj/google drive/data/hmm_trajectories/traj-0.npy")
 entropy = np.load("/users/ajj/google drive/data/hmm_trajectories/entropy-0.npy")
 tica = np.load("/users/ajj/google drive/data/tica_trajectories/traj-0.npy")
+dtica = tica[:-1]-tica[1:]
+phipsi = phipsi[1:]
+entropy = entropy[1:]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -19,12 +22,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     client = udp_client.SimpleUDPClient(args.ip, args.port)
-    tica_idx = 0
     for i, x in enumerate(phipsi):
         print(x)
         client.send_message("/state1", float(x[0]))
         client.send_message("/state2", float(x[1]))
         client.send_message("/state3", float(x[2]))
         client.send_message("/entropy", float(entropy[i]))
-        client.send_message("/tica", float(tica[i,tica_idx]))
+        for j in range(dtica.shape[1]):
+            client.send_message("/tica{}".format(j+1), float(dtica[i,j]))
         time.sleep(.05)
