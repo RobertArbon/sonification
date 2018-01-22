@@ -2,4 +2,7 @@
 *.idea
 *.dcd
 Data/
-alanine_dipeptide/
+*.nc
+*.pickl
+
+
