@@ -2,21 +2,29 @@ import numpy as np
 import time
 import argparse
 import math
-
-from pythonosc import osc_message_builder
-from pythonosc import udp_client
-
-phipsi = np.load("/users/ajj/google drive/data/hmm_trajectories/traj-0.npy")
-entropy = np.load("/users/ajj/google drive/data/hmm_trajectories/entropy-0.npy")
-tica = np.load("/users/ajj/google drive/data/tica_trajectories/traj-0.npy")
-properties = np.load("/users/ajj/google drive/data/static_properties_max_scale.npy")
-properties = np.load("/users/ajj/google drive/data/static_properties_01_scale.npy")
+from os.path import join
 
 
-#
-dtica = tica[:-1]-tica[1:]
-phipsi = phipsi[1:]
+# from pythonosc import osc_message_builder
+# from pythonosc import udp_client
+
+root_dir = '/Users/robert_arbon/Google Drive/Research/Sonification/'
+data_dir = join(root_dir, 'Data/Chodera_data/Processed')
+
+# Trajectories
+entropy = np.load(join(data_dir, 'shannon_entropy_traj_lag1.0ps.npy'))
+fast_modes = np.load(join(data_dir, 'fast_modes_lag1.0ps.npy'))
+hmm_traj = np.load(join(data_dir, 'probabilistic_traj_lag1.0ps.npy'))
+
+# Static properties
+properties = np.load(join(data_dir, 'static_properties_max_scale.pickle'))
+
+# Take derivatives
+dfast_modes = fast_modes[:-1]-fast_modes[1:]
+hmm_traj = hmm_traj[1:]
 entropy = entropy[1:]
+
+Nsteps = hmm_traj.shape[1]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -30,14 +38,16 @@ if __name__ == "__main__":
 
     for k, v in properties.items():
         for i, x in enumerate(v):
-            client.send_message("/properties/{0}/state{1}".format(k,i), float(v))
+            client.send_message("/properties/{0}/state{1}".format(k,i), float(x))
 
-    for i, x in enumerate(phipsi):
-        print(x)
-        client.send_message("/state1", float(x[0]))
-        client.send_message("/state2", float(x[1]))
-        client.send_message("/state3", float(x[2]))
+    for i in range(Nsteps):
+
+        for j in range(hmm_traj.shape[1]):
+            client.send_message("/state{}".format(j+1), float(hmm_traj[i][j]))
+
         client.send_message("/entropy", float(entropy[i]))
-        for j in range(dtica.shape[1]):
-            client.send_message("/tica{}".format(j+1), float(dtica[i,j]))
+
+        for j in range(dfast_modes.shape[1]):
+            client.send_message("/fast{}".format(j+1), float(dfast_modes[i,j]))
+
         time.sleep(.05)
