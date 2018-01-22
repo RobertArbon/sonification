@@ -3,10 +3,8 @@ import time
 import argparse
 import math
 from os.path import join
-
-
-# from pythonosc import osc_message_builder
-# from pythonosc import udp_client
+from pythonosc import osc_message_builder
+from pythonosc import udp_client
 
 root_dir = '/Users/robert_arbon/Google Drive/Research/Sonification/'
 data_dir = join(root_dir, 'Data/Chodera_data/Processed')
