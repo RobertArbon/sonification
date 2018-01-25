@@ -13,6 +13,7 @@ data_dir = join(root_dir, 'Data/Chodera_data/Processed')
 entropy = np.load(join(data_dir, 'shannon_entropy_traj_lag1.0ps.npy'))
 fast_modes = np.load(join(data_dir, 'fast_modes_lag1.0ps.npy'))
 hmm_traj = np.load(join(data_dir, 'probabilistic_traj_lag1.0ps.npy'))
+free_energy_traj = np.load(join(data_dir, 'free_energy_traj_lag1.0ps.npy'))
 
 # Static properties
 properties = np.load(join(data_dir, 'static_properties_max_scale.pickle'))
@@ -21,8 +22,9 @@ properties = np.load(join(data_dir, 'static_properties_max_scale.pickle'))
 dfast_modes = fast_modes[:-1]-fast_modes[1:]
 hmm_traj = hmm_traj[1:]
 entropy = entropy[1:]
+free_energy_traj = free_energy_traj[1:]
 
-Nsteps = hmm_traj.shape[1]
+Nsteps = hmm_traj.shape[0]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -42,6 +44,8 @@ if __name__ == "__main__":
 
         for j in range(hmm_traj.shape[1]):
             client.send_message("/state{}".format(j+1), float(hmm_traj[i][j]))
+
+        client.send_message("/free_energy", float(free_energy_traj[i]))
 
         client.send_message("/entropy", float(entropy[i]))
 
