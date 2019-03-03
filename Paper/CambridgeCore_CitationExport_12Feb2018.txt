@@ -1,0 +1,1 @@
+@book{wales_2004, place={Cambridge}, series={Cambridge Molecular Science}, title={Energy Landscapes: Applications to Clusters, Biomolecules and Glasses}, DOI={10.1017/CBO9780511721724}, publisher={Cambridge University Press}, author={Wales, David}, year={2004}, collection={Cambridge Molecular Science}}

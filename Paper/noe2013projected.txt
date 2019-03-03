@@ -1,0 +1,10 @@
+@article{noe2013projected,
+  title={Projected and hidden Markov models for calculating kinetics and metastable states of complex molecules},
+  author={No{\'e}, Frank and Wu, Hao and Prinz, Jan-Hendrik and Plattner, Nuria},
+  journal={The Journal of chemical physics},
+  volume={139},
+  number={18},
+  pages={11B609\_1},
+  year={2013},
+  publisher={AIP}
+}

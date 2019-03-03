@@ -1,0 +1,243 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\def\UrlFont{\rmfamily}
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Feynman}
+R.~P. Feynman, \emph{et~al.}, \emph{\BIBforeignlanguage{eng}{The Feynman
+  lectures on physics}}.\hskip 1em plus 0.5em minus 0.4em\relax Addison-Wesley,
+  1963.
+
+\bibitem{Hashimoto2003}
+M.~Hashimoto, \emph{et~al.}, ``{Role of Protein Aggregation in Mitochondrial
+  Dysfunction and Neurodegeneration in Alzheimer's and Parkinson's Diseases},''
+  \emph{NeuroMolecular Medicine}, vol.~4, pp. 21--35, 2003.
+
+\bibitem{Singh2015}
+P.~Singh, \emph{et~al.}, ``{Linking Protein Motion to Enzyme Catalysis},''
+  \emph{Molecules}, vol.~20, no.~1, pp. 1192--1209, 2015.
+
+\bibitem{Adcock2006}
+S.~A. Adcock and J.~A. McCammon, ``{Molecular dynamics: Survey of methods for
+  simulating the activity of proteins},'' \emph{Chemical Reviews}, vol. 106,
+  no.~5, pp. 1589--1615, 2006.
+
+\bibitem{Antoniou2006}
+D.~Antoniou, \emph{et~al.}, ``{Computational and Theoretical Methods to Explore
+  the Relation between Enzyme Dynamics and Catalysis},'' \emph{Chemical
+  Reviews}, vol. 106, no.~8, pp. 3170--3187, aug 2006.
+
+\bibitem{Kamp2008}
+M.~W. van~der Kamp, \emph{et~al.}, ``Biomolecular simulation and modelling:
+  status, progress and prospects,'' \emph{Journal of The Royal Society
+  Interface}, vol.~5, no. Suppl 3, pp. 173--190, 2008.
+
+\bibitem{Mackerell2004}
+A.~D. Mackerell, ``Empirical force fields for biological macromolecules:
+  Overview and issues,'' \emph{Journal of Computational Chemistry}, vol.~25,
+  no.~13, pp. 1584--1604, 10 2004.
+
+\bibitem{Stone2010}
+J.~E. Stone, \emph{et~al.}, ``Gpu-accelerated molecular modeling coming of
+  age,'' \emph{Journal of Molecular Graphics and Modelling}, vol.~29, no.~2,
+  pp. 116 -- 125, 2010.
+
+\bibitem{Openmm4}
+P.~Eastman, \emph{et~al.}, ``Openmm 4: A reusable, extensible, hardware
+  independent library for high performance molecular simulation,''
+  \emph{Journal of Chemical Theory and Computation}, vol.~9, no.~1, pp.
+  461--469, 2013.
+
+\bibitem{amber}
+D.~Case, \emph{et~al.}, ``Amber 2017,'' University of California, San
+  Francisco, 2017.
+
+\bibitem{Graaf2015}
+M.~{\'A}lvarez-Moreno, \emph{et~al.}, ``Managing the computational chemistry
+  big data problem: The iochem-bd platform,'' \emph{Journal of Chemical
+  Information and Modeling}, vol.~55, no.~1, pp. 95--103, 2015.
+
+\bibitem{alder1959}
+B.~J. Alder and T.~E. Wainwright, ``Studies in molecular dynamics. i. general
+  method,'' \emph{The Journal of Chemical Physics}, vol.~31, no.~2, pp.
+  459--466, 1959.
+
+\bibitem{Atkins}
+P.~W. Atkins and J.~de~Paula., \emph{\BIBforeignlanguage{eng}{Atkins' physical
+  chemistry}}, 10th~ed., 2014.
+
+\bibitem{molpx}
+\BIBentryALTinterwordspacing
+G.~Pérez-Hernández, \emph{et~al.}, ``{markovmodel/molPX: More PyEMMA
+  integration through handling of TICA objects},'' Mar. 2017. [Online].
+  Available: \url{https://doi.org/10.5281/zenodo.437707}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hermann1999}
+T.~Hermann and H.~Ritter, ``{Listen to your Data: Model-Based Sonification for
+  Data Analysis},'' in \emph{Advances in intelligent computing and multimedia
+  systems}, G.~E. Lasker and M.~R. Syed, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Int. Inst. for Advanced Studies in System research and
+  cybernetics, 1999, pp. 189--194.
+
+\bibitem{Rau2016}
+B.~Rau, \emph{et~al.}, ``{Enhancing visualization of molecular simulations
+  using sonification},'' in \emph{2016 IEEE 1st International Workshop on
+  Virtual and Augmented Reality for Molecular Science}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, March 2016, pp. 25--30.
+
+\bibitem{Grottel2015}
+S.~Grottel, \emph{et~al.}, ``{MegaMol - A prototyping framework for
+  particle-based visualization},'' \emph{IEEE Transactions on Visualization and
+  Computer Graphics}, vol.~21, no.~2, pp. 201--214, February 2015.
+
+\bibitem{Grond2008}
+F.~Grond and F.~{Dall Antonia}, ``{Sumo. A Sonification Utility for
+  Molecules},'' in \emph{Proceedings of ICAD 2008}, no.~14.\hskip 1em plus
+  0.5em minus 0.4em\relax International Community for Auditory Display, 2008,
+  pp. 1--7.
+
+\bibitem{pymol}
+\BIBentryALTinterwordspacing
+``{Pymol},'' 2017. [Online]. Available: \url{https://pymol.org/2/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hermann2001}
+T.~Hermann, \emph{et~al.}, ``{Sonification of markov chain monte carlo
+  simulations},'' in \emph{ICAD 2001}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Espoo, Finland: Georgia Institute of Technology, 2001, pp. 208--216.
+
+\bibitem{wishart2013}
+T.~Wishart, ``{From Sound Morphing to the Synthesis of Starlight. Musical
+  experiences with the Phase Vocoder over 25 years},''
+  \emph{Musica/Tecnologia}, vol.~7, no.~0, 2013.
+
+\bibitem{Pauling205}
+L.~Pauling, \emph{et~al.}, ``The structure of proteins: Two hydrogen-bonded
+  helical configurations of the polypeptide chain,'' \emph{Proceedings of the
+  National Academy of Sciences}, vol.~37, no.~4, pp. 205--211, 1951.
+
+\bibitem{kendrew1958}
+J.~C. Kendrew, \emph{et~al.}, ``A three-dimensional model of the myoglobin
+  molecule obtained by x-ray analysis,'' \emph{Nature}, vol. 181, p. 662, 03
+  1958.
+
+\bibitem{HUMP96}
+W.~Humphrey, \emph{et~al.}, ``{VMD} -- {V}isual {M}olecular {D}ynamics,''
+  \emph{Journal of Molecular Graphics}, vol.~14, pp. 33--38, 1996.
+
+\bibitem{Scaletti1994}
+C.~Scaletti, ``{Sound synthesis algorithms for auditory data
+  representations},'' in \emph{Auditory Display: Sonification, Audification,
+  And Auditory Interfaces}, G.~Kramer, Ed.\hskip 1em plus 0.5em minus
+  0.4em\relax Reading: Addison-Wesley, 1994.
+
+\bibitem{Hunt2000}
+A.~Hunt, \emph{et~al.}, ``{Towards a model for instrumental mapping in expert
+  musical interaction},'' in \emph{ICMC: International Computer Music
+  Conference}, Berlin, Germany, sep 2000.
+
+\bibitem{Murphy2006}
+E.~Murphy, \emph{et~al.}, ``{A Semiotic Approach to the Design of Non-speech
+  Sounds},'' in \emph{Haptic and Audio Interaction Design}, D.~McGookin and
+  S.~Brewster, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg:
+  Springer Berlin Heidelberg, 2006, pp. 121--132.
+
+\bibitem{C4FD00008K}
+D.~R. Glowacki, \emph{et~al.}, ``A gpu-accelerated immersive audio-visual
+  framework for interaction with molecular dynamics using consumer depth
+  sensors,'' \emph{Faraday Discuss.}, vol. 169, pp. 63--87, 2014.
+
+\bibitem{ds2016}
+T.~Mitchell, \emph{et~al.}, ``danceroom spectroscopy: At the frontiers of
+  physics, performance, interactive art and technology.'' \emph{Leonardo},
+  vol.~49, no.~2, pp. 138--147, 2016.
+
+\bibitem{glow2013}
+D.~Glowacki, ``Sculpting molecular dynamics in real-time using human energy
+  fields,'' in \emph{Molecular Aesthetics}, P.~Weibel and L.~Fruk, Eds.\hskip
+  1em plus 0.5em minus 0.4em\relax Cambridge, MA: The MIT Press, 2013, pp.
+  248--257.
+
+\bibitem{Frauenfelder1598}
+H.~Frauenfelder, \emph{et~al.}, ``The energy landscapes and motions of
+  proteins,'' \emph{Science}, vol. 254, no. 5038, pp. 1598--1603, 1991.
+
+\bibitem{Santoso715}
+Y.~Santoso, \emph{et~al.}, ``Conformational transitions in dna polymerase i
+  revealed by single-molecule fret,'' \emph{Proceedings of the National Academy
+  of Sciences}, vol. 107, no.~2, pp. 715--720, 2010.
+
+\bibitem{Gebhardt2013}
+J.~C.~M. Gebhardt, \emph{et~al.}, ``Full distance-resolved folding energy
+  landscape of one single protein molecule,'' \emph{Proceedings of the National
+  Academy of Sciences}, vol. 107, no.~5, pp. 2013--2018, 2010.
+
+\bibitem{wales_2004}
+D.~Wales, \emph{Energy Landscapes: Applications to Clusters, Biomolecules and
+  Glasses}, ser. Cambridge Molecular Science.\hskip 1em plus 0.5em minus
+  0.4em\relax Cambridge University Press, 2004.
+
+\bibitem{Buchete2008}
+N.-V. Buchete and G.~Hummer, ``Coarse master equations for peptide folding
+  dynamics,'' \emph{The Journal of Physical Chemistry B}, vol. 112, no.~19, pp.
+  6057--6069, 2008, pMID: 18232681.
+
+\bibitem{CHODERA2014135}
+J.~D. Chodera and F.~No{\'e}, ``Markov state models of biomolecular
+  conformational dynamics,'' \emph{Current Opinion in Structural Biology},
+  vol.~25, pp. 135 -- 144, 2014.
+
+\bibitem{prinz2011markov}
+J.-H. Prinz, \emph{et~al.}, ``Markov models of molecular kinetics: Generation
+  and validation,'' \emph{The Journal of chemical physics}, vol. 134, no.~17,
+  p. 174105, 2011.
+
+\bibitem{noe2013projected}
+F.~No{\'e}, \emph{et~al.}, ``Projected and hidden markov models for calculating
+  kinetics and metastable states of complex molecules,'' \emph{The Journal of
+  chemical physics}, vol. 139, no.~18, p. 184114, 2013.
+
+\bibitem{Chodera2007}
+J.~D. Chodera, \emph{et~al.}, ``Automatic discovery of metastable states for
+  the construction of markov models of macromolecular conformational
+  dynamics,'' \emph{The Journal of Chemical Physics}, vol. 126, no.~15, p.
+  155101, 2007.
+
+\bibitem{Lewin2007}
+D.~Lewin, \emph{{Generalized musical intervals and transformations}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax New York, NY, USA: Oxford University Press,
+  1993.
+
+\bibitem{Verplank2001}
+B.~Verplank and R.~Shaw, ``{Scanned Synthesis},'' \emph{The Journal of the
+  Acoustical Society of America}, vol. 109, no.~5, 2001.
+
+\bibitem{scherer_pyemma_2015}
+M.~K. Scherer, \emph{et~al.}, ``{PyEMMA} 2: {A} {Software} {Package} for
+  {Estimation}, {Validation}, and {Analysis} of {Markov} {Models},''
+  \emph{Journal of Chemical Theory and Computation}, vol.~11, pp. 5525--5542,
+  Oct. 2015.
+
+\bibitem{2018arXiv180102884C}
+M.~O. {Connor}, \emph{et~al.}, ``{Sampling molecular conformations and dynamics
+  in a multi-user virtual reality framework},'' \emph{ArXiv e-prints}, Jan.
+  2018,
+  \href{https://arxiv.org/abs/1801.02884v1}{ArXiv:1801.02884}[physics.chem-ph].
+
+\end{thebibliography}

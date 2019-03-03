@@ -1,0 +1,323 @@
+name: ml4dyn
+channels:
+- !!python/unicode
+  'http://ambermd.org/downloads/ambertools/conda'
+- !!python/unicode
+  'conda-forge'
+- !!python/unicode
+  'mpastell'
+- !!python/unicode
+  'http://conda.anaconda.org/omnia'
+- !!python/unicode
+  'anaconda-fusion'
+- !!python/unicode
+  'MDAnalysis'
+- !!python/unicode
+  'omnia'
+- !!python/unicode
+  'defaults'
+dependencies:
+- !!python/unicode
+  'backports=1.0=py35_1'
+- !!python/unicode
+  'backports.functools_lru_cache=1.4=py35_1'
+- !!python/unicode
+  'bhmm=0.6.2=py35_0'
+- !!python/unicode
+  'blas=1.1=openblas'
+- !!python/unicode
+  'certifi=2017.11.5=py35_0'
+- !!python/unicode
+  'cvxopt=1.1.9=py35_blas_openblas_202'
+- !!python/unicode
+  'fftw=3.3.7=0'
+- !!python/unicode
+  'freetype=2.8.1=0'
+- !!python/unicode
+  'glpk=4.62=0'
+- !!python/unicode
+  'gmp=6.1.2=0'
+- !!python/unicode
+  'gsl=2.2.1=blas_openblas_4'
+- !!python/unicode
+  'ipython=5.1.0=py35_2'
+- !!python/unicode
+  'ipywidgets=7.1.0=py35_0'
+- !!python/unicode
+  'libgfortran=3.0.0=0'
+- !!python/unicode
+  'libpng=1.6.34=0'
+- !!python/unicode
+  'matplotlib=2.1.1=py35_2'
+- !!python/unicode
+  'metis=5.1.0=3'
+- !!python/unicode
+  'msmtools=1.2.1=np112py35_0'
+- !!python/unicode
+  'nglview=1.0=py35_1'
+- !!python/unicode
+  'notebook=5.2.2=py35_1'
+- !!python/unicode
+  'numpy=1.12.1=py35_blas_openblas_201'
+- !!python/unicode
+  'openblas=0.2.20=6'
+- !!python/unicode
+  'scikit-learn=0.19.1=py35_blas_openblas_201'
+- !!python/unicode
+  'scipy=1.0.0=py35_blas_openblas_201'
+- !!python/unicode
+  'setuptools=38.2.3=py35_0'
+- !!python/unicode
+  'suitesparse=4.5.4=blas_openblas_201'
+- !!python/unicode
+  'tbb=2018_20170919=0'
+- !!python/unicode
+  'widgetsnbextension=3.1.0=py35_0'
+- !!python/unicode
+  'zlib=1.2.11=0'
+- !!python/unicode
+  'alabaster=0.7.9=py35_0'
+- !!python/unicode
+  'appnope=0.1.0=py35_0'
+- !!python/unicode
+  'babel=2.3.4=py35_0'
+- !!python/unicode
+  'bleach=1.5.0=py35_0'
+- !!python/unicode
+  'bokeh=0.12.5=py35_1'
+- !!python/unicode
+  'cycler=0.10.0=py35_0'
+- !!python/unicode
+  'cython=0.25.2=py35_0'
+- !!python/unicode
+  'decorator=4.0.11=py35_0'
+- !!python/unicode
+  'dill=0.2.6=py35_0'
+- !!python/unicode
+  'docutils=0.13.1=py35_0'
+- !!python/unicode
+  'entrypoints=0.2.2=py35_1'
+- !!python/unicode
+  'fastcache=1.0.2=py35_1'
+- !!python/unicode
+  'hdf5=1.8.17=1'
+- !!python/unicode
+  'html5lib=0.999=py35_0'
+- !!python/unicode
+  'icu=54.1=0'
+- !!python/unicode
+  'imagesize=0.7.1=py35_0'
+- !!python/unicode
+  'ipykernel=4.5.2=py35_0'
+- !!python/unicode
+  'ipython_genutils=0.1.0=py35_0'
+- !!python/unicode
+  'jinja2=2.9.4=py35_0'
+- !!python/unicode
+  'joblib=0.9.4=py35_0'
+- !!python/unicode
+  'jsonschema=2.5.1=py35_0'
+- !!python/unicode
+  'jupyter_client=5.0.0=py35_0'
+- !!python/unicode
+  'jupyter_core=4.3.0=py35_0'
+- !!python/unicode
+  'libgcc=4.8.5=1'
+- !!python/unicode
+  'markupsafe=0.23=py35_2'
+- !!python/unicode
+  'mistune=0.7.3=py35_1'
+- !!python/unicode
+  'mkl=2017.0.1=0'
+- !!python/unicode
+  'mock=2.0.0=py35_0'
+- !!python/unicode
+  'nbconvert=5.1.1=py35_0'
+- !!python/unicode
+  'nbformat=4.3.0=py35_0'
+- !!python/unicode
+  'networkx=1.11=py35_0'
+- !!python/unicode
+  'nose=1.3.7=py35_1'
+- !!python/unicode
+  'numexpr=2.6.2=np112py35_0'
+- !!python/unicode
+  'numpydoc=0.6.0=py35_0'
+- !!python/unicode
+  'openssl=1.0.2k=0'
+- !!python/unicode
+  'pandas=0.20.2=np112py35_0'
+- !!python/unicode
+  'pandocfilters=1.4.1=py35_0'
+- !!python/unicode
+  'path.py=10.1=py35_0'
+- !!python/unicode
+  'patsy=0.4.1=py35_0'
+- !!python/unicode
+  'pbr=1.10.0=py35_0'
+- !!python/unicode
+  'pexpect=4.2.1=py35_0'
+- !!python/unicode
+  'pickleshare=0.7.4=py35_0'
+- !!python/unicode
+  'pip=9.0.1=py35_1'
+- !!python/unicode
+  'prompt_toolkit=1.0.9=py35_0'
+- !!python/unicode
+  'psutil=5.2.0=py35_0'
+- !!python/unicode
+  'ptyprocess=0.5.1=py35_0'
+- !!python/unicode
+  'pygments=2.1.3=py35_0'
+- !!python/unicode
+  'pymongo=3.3.0=py35_0'
+- !!python/unicode
+  'pyparsing=2.1.4=py35_0'
+- !!python/unicode
+  'pyqt=5.6.0=py35_2'
+- !!python/unicode
+  'pytables=3.3.0=np112py35_0'
+- !!python/unicode
+  'python=3.5.2=0'
+- !!python/unicode
+  'python-dateutil=2.6.0=py35_0'
+- !!python/unicode
+  'pytz=2016.10=py35_0'
+- !!python/unicode
+  'pyyaml=3.12=py35_0'
+- !!python/unicode
+  'pyzmq=16.0.2=py35_0'
+- !!python/unicode
+  'qt=5.6.2=0'
+- !!python/unicode
+  'readline=6.2=2'
+- !!python/unicode
+  'requests=2.13.0=py35_0'
+- !!python/unicode
+  'seaborn=0.7.1=py35_0'
+- !!python/unicode
+  'simplegeneric=0.8.1=py35_1'
+- !!python/unicode
+  'sip=4.18=py35_0'
+- !!python/unicode
+  'six=1.10.0=py35_0'
+- !!python/unicode
+  'snowballstemmer=1.2.1=py35_0'
+- !!python/unicode
+  'sphinx=1.5.1=py35_0'
+- !!python/unicode
+  'sqlalchemy=1.1.5=py35_0'
+- !!python/unicode
+  'sqlite=3.13.0=0'
+- !!python/unicode
+  'statsmodels=0.8.0=np112py35_0'
+- !!python/unicode
+  'terminado=0.6=py35_0'
+- !!python/unicode
+  'testpath=0.3=py35_0'
+- !!python/unicode
+  'tk=8.5.18=0'
+- !!python/unicode
+  'toolz=0.8.2=py35_0'
+- !!python/unicode
+  'tornado=4.4.2=py35_0'
+- !!python/unicode
+  'traitlets=4.3.2=py35_0'
+- !!python/unicode
+  'wcwidth=0.1.7=py35_0'
+- !!python/unicode
+  'wheel=0.29.0=py35_0'
+- !!python/unicode
+  'xz=5.2.2=1'
+- !!python/unicode
+  'yaml=0.1.6=0'
+- !!python/unicode
+  'ambertools=17.0=0'
+- !!python/unicode
+  'pweave=0.25=py35_0'
+- !!python/unicode
+  'algopy=0.5.3=py35_0'
+- !!python/unicode
+  'corner=2.0.0=py35_0'
+- !!python/unicode
+  'cvxcanon=0.0.22=np112py35_0'
+- !!python/unicode
+  'cvxpy=0.4.8=py35_0'
+- !!python/unicode
+  'ecos=2.0.4=np112py35_0'
+- !!python/unicode
+  'fastcluster=1.1.20=np112py35_0'
+- !!python/unicode
+  'fftw3f=3.3.4=2'
+- !!python/unicode
+  'hdf5-1814=1.8.14=0'
+- !!python/unicode
+  'mdtraj=1.8.0=np112py35_1'
+- !!python/unicode
+  'modeller=9.16=py35_1'
+- !!python/unicode
+  'multiprocess=0.70.4=py35_0'
+- !!python/unicode
+  'munkres=1.0.7=py35_0'
+- !!python/unicode
+  'nose-timer=0.5.0=py35_1'
+- !!python/unicode
+  'numdifftools=0.9.14=py35_0'
+- !!python/unicode
+  'openmm=7.1.0rc1=py35_0'
+- !!python/unicode
+  'parmed=2.7.3=py35_0'
+- !!python/unicode
+  'progress_reporter=1.3.1=py35_0'
+- !!python/unicode
+  'pyhmc=0.1.2=np112py35_1'
+- !!python/unicode
+  'scs=1.2.6=np112py35_1'
+- !!python/unicode
+  'termcolor=1.1.0=py35_0'
+- !!python/unicode
+  'thermotools=0.2.6=np112py35_0'
+- pip:
+  - backports.functools-lru-cache==1.4
+  - bhmm (/Users/robert_arbon/anaconda/envs/ml4dyn/lib/python3.5/site-packages)==0.6.2
+  - biopython==1.68
+  - bootstrapped==0.0.1
+  - deap==1.0.2
+  - django==1.11.2
+  - future==0.16.0
+  - gpy==1.8.5
+  - griddataformats==0.3.3
+  - h5py==2.7.1
+  - hmmlearn (/Users/robert_arbon/Google Drive/Research/hmmlearn)==0.2.1
+  - hyperopt (/Users/robert_arbon/anaconda/envs/ml4dyn/lib/python3.5/site-packages/hyperopt-0.1-py3.5.egg)==0.1
+  - ipympl==0.1.0
+  - ipython-genutils==0.1.0
+  - jenks (/Users/robert_arbon/src/jenks)==1.0
+  - jupyter-client==5.0.0
+  - jupyter-core==4.3.0
+  - mmpbsa.py==16.0
+  - molpx (/Users/robert_arbon/Google Drive/Research/molPX)==0.1.7b6
+  - msmbuilder (/Users/robert_arbon/anaconda/envs/ml4dyn/lib/python3.5/site-packages/msmbuilder-3.9.0.dev0-py3.5-macosx-10.6-x86_64.egg)==3.9.0.dev0
+  - olefile==0.44
+  - optunity==1.1.1
+  - osprey (/Users/robert_arbon/Google Drive/Research/osprey)==1.2.0.dev0
+  - paramz==0.8.5
+  - pathos==0.2.1
+  - pdb4amber==1.3
+  - pillow==4.1.1
+  - pox==0.2.3
+  - ppft==1.6.4.7.1
+  - progress-reporter==1.3.1
+  - prompt-toolkit==1.0.9
+  - pyemma (/Users/robert_arbon/Google Drive/Research/PyEMMA)==2.4+1155.g14636742.dirty
+  - pymsmt==16.0
+  - python-osc==1.6.3
+  - pytraj==2.0.0
+  - salib==1.0.3
+  - sander==16.0
+  - sobol==0.9
+  - tables==3.3.0
+  - tpot==0.8.3
+  - tqdm==4.14.0
+  - update-checker==0.16
+
